@@ -22,13 +22,12 @@ list-style: none;
 
 }
 
-header {background-color: white;
+header {background-color: white(66, 26, 26);
 display: flex;
 justify-content: space-between;
 padding: 10px 30px;
 
 }
-
 
 .navegacion {
     display: flex;
@@ -36,9 +35,21 @@ padding: 10px 30px;
     justify-content: space-between;
     align-items: center;
     
-    }
+   }
      nav {
+
      display: flex;
      gap: 10px;
+
+     }
+
+     @media (min-wight: 768px) {
+    .navegacion-escritorio { 
+        display: flex;
+    }
+    .navegacion-mobile {
+
+    display: none;
+    }
 
      }
