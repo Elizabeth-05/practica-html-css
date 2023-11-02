@@ -3,6 +3,42 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF                  
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+boby { background-color: beige;
+
+}
+
+li { 
+list-style: none;
+
+}
+
+header {background-color: white;
+display: flex;
+justify-content: space-between;
+padding: 10px 30px;
+
+}
+
+
+.navegacion {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+     nav {
+     display: flex;
+     gap: 10px;
+
+     }
