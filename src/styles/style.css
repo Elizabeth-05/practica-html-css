@@ -29,6 +29,7 @@ display: flex;
 justify-content: space-between;
 padding: 10px 30px;
 
+
 }
 
 
@@ -39,20 +40,9 @@ padding: 10px 30px;
 
      }
 
-     @media (min-wight: 768px) {
-    .navegacion-escritorio { 
-        display: flex;
-    }
-    .navegacion-mobile {
-
     display: none;
 
-    }
 
-    main {
-        margin-top: 100px;
-
-    }
 
      .navegacion-escritorio {
         display: flex;
@@ -61,17 +51,52 @@ padding: 10px 30px;
   
        }
 
-  .seccion-principal  {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  background-image: url(../images/landing.jpg);
+    .seccion-principal  {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+     gap: 10px;
+     background-image: url(../images/landing.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seccion-principal h1 {
+ color: white;
+ font-size: 50px;
+ text-align: center;
+ margin-top: 100px;
+
+ }
+
+  .seccion-principal p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
 
 }
 
+.seccion-nuevo-spotify {
+display: flex;
 
+}
 
+.seccion-nuevo-spotify img {
+  width: 50%;
+  max-width: 300px;
+    
+    }
 
+ .seccion-nuevo-spotify h3 {
+     color: green;
+    font-size: 30px;
+          
+          }
 
-
+.seccion-nuevo-spotify li {
+    display: grid;
+gap: 30px;
+          
+          }
