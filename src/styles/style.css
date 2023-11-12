@@ -14,6 +14,7 @@ White: #FFF
 }
 
 boby { background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -24,10 +25,14 @@ list-style: none;
 
 header {
 
-background-color: white(66, 26, 26);
+background-color: white;
 display: flex;
-justify-content: space-between;
+justify-content:
+ space-between;
 padding: 10px 30px;
+width: 100%;
+position: fixed;
+top: 0;
 
 
 }
@@ -78,10 +83,31 @@ padding: 10px 30px;
 
 }
 
-.seccion-nuevo-spotify {
+
+.seccion-nuevo-spotify  { 
 display: flex;
+place-content: center;
+padding-block: 50px;
+gap: 40px;
 
 }
+.seccion-nuevo-spotify h2 {
+    font-size: 2.5rem;
+  width: fit-content;
+}
+
+.seccion-nuevo-spotify ul {
+    display: flex;
+  width: fit-content;
+    
+
+    }
+
+.seccion-nuevo-spotify li {
+   display: grid;
+   place-items: center;
+
+}    
 
 .seccion-nuevo-spotify img {
   width: 50%;
@@ -89,14 +115,16 @@ display: flex;
     
     }
 
+    .seccion-nuevo-spotify div {
+        display: grid;
+    gap: 20px;
+              
+              }
+    
  .seccion-nuevo-spotify h3 {
      color: green;
     font-size: 30px;
+    text-align: center;
           
           }
 
-.seccion-nuevo-spotify li {
-    display: grid;
-gap: 30px;
-          
-          }
